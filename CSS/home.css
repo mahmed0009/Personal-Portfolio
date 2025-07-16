@@ -41,6 +41,14 @@ nav {
     color: white;
     text-decoration: none;
 }
+
+nav .current{
+    text-decoration: overline;
+}
+nav .other:hover{
+    text-decoration: overline;
+}
+
 .mainContainer {
     display: flex;
 }

@@ -37,6 +37,13 @@ nav {
     text-decoration: none;
 }
 
+nav .current{
+    text-decoration: overline;
+}
+nav .other:hover{
+    text-decoration: overline;
+}
+
 .mainContainer {
     width: 60vw;
     height: auto;
@@ -128,7 +135,6 @@ footer .foot {
         font-size: 13px;
     }
 
-
     footer .foot {
         width: 50%;
     }
@@ -144,9 +150,11 @@ footer .foot {
         padding: 5%;
         flex-direction: column;
     }
-    .right .text{
+
+    .right .text {
         text-align: center;
     }
+
     .right {
         display: flex;
         flex-direction: column;
