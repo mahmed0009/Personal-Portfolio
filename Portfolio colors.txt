@@ -1,0 +1,9 @@
+red  #EF6D58
+
+grey-black #18192B
+
+purple #B14FF5
+
+grey - text - #ACADB4
+
+white or beige for text------
