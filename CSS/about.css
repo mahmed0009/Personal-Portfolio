@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "IBM Plex Mono", monospace;
+}
+
+body {
+    background-color: #080808;
+}
+
+nav {
+    background-color: #8E24AA;
+    color: white;
+    width: 30vw;
+    padding: 1%;
+    margin: auto;
+    border-radius: 20px;
+    position: fixed;
+    top: 1%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 2px solid #c066da;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.mainContainer {
+    width: 60vw;
+    height: auto;
+    margin: auto;
+    padding-top: 10%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.left img {
+    width: 360px;
+    border-radius: 20px;
+}
+
+.right h3 {
+    font-size: 44px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.right .text {
+    font-size: 16px;
+    text-align: justify;
+    color: #9C9C9C;
+}
+
+footer {
+    width: 100vw;
+    position: fixed;
+    bottom: 2px;
+}
+
+footer .foot {
+    background-color: #8E24AA;
+    color: white;
+    width: 30%;
+    padding: 1%;
+    margin: auto;
+    border: 2px solid #c066da;
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+/* ------Media Queries-------------- */
+
+@media screen and (max-width:1300px) {
+    .mainContainer {
+        width: 60vw;
+    }
+
+    .left img {
+        border-radius: 20px;
+    }
+
+    .right h3 {
+        font-size: 32px;
+        font-weight: 900;
+    }
+
+    .right .text {
+        font-size: 14px;
+    }
+
+    footer .foot {
+        width: 30%;
+        padding: 1%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    nav {
+        width: 50vw;
+    }
+
+    .left img {
+        width: 320px;
+        border-radius: 20px;
+    }
+
+    .right h3 {
+        font-size: 30px;
+        font-weight: 900;
+    }
+
+    .right .text {
+        font-size: 13px;
+    }
+
+
+    footer .foot {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    nav {
+        width: 90vw;
+    }
+
+    .mainContainer {
+        margin-top: 10%;
+        padding: 5%;
+        flex-direction: column;
+    }
+    .right .text{
+        text-align: center;
+    }
+    .right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80vw;
+        margin-bottom: 10%px;
+    }
+
+    footer .foot {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .left img {
+        width: 250px;
+    }
+}
