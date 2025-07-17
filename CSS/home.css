@@ -28,6 +28,7 @@ nav {
     left: 50%;
     transform: translateX(-50%);
     border: 2px solid #c066da;
+    box-shadow: 4px 4px 10px rgba(232, 143, 224, 0.551);
 }
 
 .nav-links {
@@ -37,15 +38,17 @@ nav {
     list-style: none;
     gap: 15px;
 }
-.nav-links a{
+
+.nav-links a {
     color: white;
     text-decoration: none;
 }
 
-nav .current{
+nav .current {
     text-decoration: overline;
 }
-nav .other:hover{
+
+nav .other:hover {
     text-decoration: overline;
 }
 
@@ -96,6 +99,7 @@ nav .other:hover{
     width: 325px;
     height: 64px;
     border: 2px solid #c066da;
+    box-shadow: 4px 4px 10px rgba(232, 143, 224, 0.551);
     border-radius: 4px;
 }
 
@@ -137,6 +141,7 @@ nav .other:hover{
 }
 
 .myServices .title {
+    color: #1B1B1B;
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 5%;
@@ -272,6 +277,7 @@ nav .other:hover{
 footer {
     background-color: white;
     width: 100vw;
+    box-shadow: 4px 4px 10px rgba(232, 143, 224, 0.551);
 }
 
 footer .foot {
@@ -370,7 +376,9 @@ footer .foot {
 @media screen and (max-width: 920px) {
     nav {
         width: 50vw;
+        padding: 2%;
     }
+
 
     /* ------------------------------------- */
     .mainContainer {
@@ -538,6 +546,7 @@ footer .foot {
         font-size: 10px;
         text-align: center;
     }
+
     footer .foot {
         width: 70%;
     }
@@ -621,7 +630,8 @@ footer .foot {
         width: 180px;
         border-radius: 3px;
     }
-        footer .foot {
+
+    footer .foot {
         width: 90%;
     }
 }

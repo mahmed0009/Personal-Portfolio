@@ -22,6 +22,7 @@ nav {
     left: 50%;
     transform: translateX(-50%);
     border: 2px solid #c066da;
+    box-shadow: 4px 4px 10px rgba(232, 143, 224, 0.551);
 }
 
 .nav-links {
@@ -37,10 +38,11 @@ nav {
     text-decoration: none;
 }
 
-nav .current{
+nav .current {
     text-decoration: overline;
 }
-nav .other:hover{
+
+nav .other:hover {
     text-decoration: overline;
 }
 
@@ -119,6 +121,7 @@ footer .foot {
 @media screen and (max-width: 1100px) {
     nav {
         width: 50vw;
+        padding: 2%;
     }
 
     .left img {
