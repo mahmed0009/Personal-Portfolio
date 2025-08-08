@@ -125,6 +125,7 @@ nav .other:hover {
 .right img {
     border-radius: 100%;
     width: 380px;
+    border: solid wheat;
 }
 
 
